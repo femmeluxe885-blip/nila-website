@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nila | Connect • Chat • Voice • Video</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fafafa;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(135deg,#e91e63,#9c27b0);
+color:white;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+}
+
+nav a:hover{
+color:#ffe082;
+}
+
+.hero{
+padding:90px 8%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-wrap:wrap;
+background:linear-gradient(to right,#fff,#f8e7ff);
+}
+
+.hero-text{
+flex:1;
+min-width:300px;
+}
+
+.hero-text h1{
+font-size:50px;
+color:#e91e63;
+margin-bottom:15px;
+}
+
+.hero-text p{
+font-size:20px;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#e91e63;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+background:#9c27b0;
+}
+
+.hero-image{
+flex:1;
+text-align:center;
+min-width:300px;
+}
+
+.hero-image img{
+width:330px;
+max-width:100%;
+}
+
+section{
+padding:70px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:36px;
+color:#e91e63;
+margin-bottom:45px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#9c27b0;
+margin:15px 0;
+}
+
+.screens{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.screen{
+background:#ddd;
+height:420px;
+border-radius:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:18px;
+color:#666;
+}
+
+.about{
+text-align:center;
+max-width:900px;
+margin:auto;
+font-size:18px;
+}
+
+.contact{
+background:#f5f5f5;
+text-align:center;
+}
+
+.contact h3{
+margin-bottom:15px;
+color:#e91e63;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+footer a{
+color:#ff80ab;
+text-decoration:none;
+margin:0 10px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+.hero{
+text-align:center;
+}
+
+.hero-text h1{
+font-size:38px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">NILA</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="privacy-policy.html">Privacy</a>
+
+<a href="terms.html">Terms</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Meet Genuine People with Nila</h1>
+
+<p>
+
+Connect through secure Voice Calls, Video Calls, Instant Messaging and Virtual Gifts.
+
+Built for meaningful conversations in a safe and respectful community.
+
+</p>
+
+<a href="#" class="btn">Coming Soon on Google Play</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/hero.jpg" alt="Nila">
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">About Nila</h2>
+
+<div class="about">
+
+<p>
+
+Nila is developed by <b>Winmoon Technologies</b>.
+
+Our mission is to help adults connect through voice calls,
+
+video calls, chat and virtual gifting while maintaining privacy,
+
+security and trust.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Features</h2>
+
+<div class="features">
+
+<div class="card">
+<h3>OTP Login</h3>
+<p>Secure mobile number authentication.</p>
+</div>
+
+<div class="card">
+<h3>Voice Calls</h3>
+<p>Crystal clear private conversations.</p>
+</div>
+
+<div class="card">
+<h3>Video Calls</h3>
+<p>High-quality one-to-one video calls.</p>
+</div>
+
+<div class="card">
+<h3>Instant Chat</h3>
+<p>Fast and secure messaging.</p>
+</div>
+
+<div class="card">
+<h3>Wallet</h3>
+<p>Recharge coins securely.</p>
+</div>
+
+<div class="card">
+<h3>Virtual Gifts</h3>
+<p>Send gifts while chatting and calling.</p>
+</div>
+
+<div class="card">
+<h3>Verified Profiles</h3>
+<p>Safe and trusted community.</p>
+</div>
+
+<div class="card">
+<h3>24×7 Support</h3>
+<p>Quick assistance whenever needed.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">App Screenshots</h2>
+
+<div class="screens">
+
+<div class="screen">Home Screen</div>
+
+<div class="screen">Chat Screen</div>
+
+<div class="screen">Voice Call</div>
+
+<div class="screen">Video Call</div>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<h3>Winmoon Technologies</h3>
+
+<p><b>Email:</b> voiceoftn08@gmail.com</p>
+
+<p><b>Phone:</b> +91 96295 72044</p>
+
+<p>We're here to help you with any questions or support requests.</p>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Winmoon Technologies. All Rights Reserved.
+
+</p>
+
+<br>
+
+<a href="privacy-policy.html">Privacy Policy</a>
+
+|
+
+<a href="terms.html">Terms & Conditions</a>
+
+|
+
+<a href="contact.html">Contact Us</a>
+
+</footer>
+
+</body>
+
+</html>
